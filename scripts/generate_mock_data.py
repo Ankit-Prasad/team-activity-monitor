@@ -11,16 +11,16 @@ from faker import Faker
 fake = Faker()
 
 # --- team members ---
-TEAM_MEMBERS = [
-    {"name": "John Smith",   "jira_username": "john.smith",   "github_username": "johnsmith"},
-    {"name": "Sarah Connor", "jira_username": "sarah.connor", "github_username": "sarahconnor"},
-    {"name": "Ravi Kumar",   "jira_username": "ravi.kumar",   "github_username": "ravikumar"},
-    {"name": "Priya Sharma", "jira_username": "priya.sharma", "github_username": "priyasharma"},
-    {"name": "Mike Johnson", "jira_username": "mike.johnson", "github_username": "mikejohnson"},
-    {"name": "Ananya Iyer",  "jira_username": "ananya.iyer",  "github_username": "ananyaiyer"},
-    {"name": "Lisa Chen",    "jira_username": "lisa.chen",    "github_username": "lisachen"},
-    {"name": "Arjun Mehta",  "jira_username": "arjun.mehta",  "github_username": "arjunmehta"},
-]
+def _load_team_members():
+    """Load team members from members_config.json."""
+    try:
+        with open("data/members_config.json") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print("[TAM] Error: data/members_config.json not found.")
+        exit(1)
+
+TEAM_MEMBERS = _load_team_members()
 
 # --- constants ---
 JIRA_STATUSES    = ["To Do", "In Progress", "In Review", "Blocked", "Done"]
@@ -289,10 +289,11 @@ def generate_members():
 # --- main ---
 
 def main():
-    # create data directory if it doesn't exist
+    # create data dir if it doesn't exist
     os.makedirs("data", exist_ok=True)
 
-    print("[TAM] Generating mock data...")
+    print(f"[TAM] Loading members from data/members_config.json...")
+    print(f"[TAM] Generating mock data for {len(TEAM_MEMBERS)} members...")
 
     # members
     members = generate_members()

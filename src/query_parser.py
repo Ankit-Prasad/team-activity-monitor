@@ -63,9 +63,9 @@ def _clean_name(name):
     """
     Post-process extracted name — max 2 words, strip known verb words.
     """
-    VERB_WORDS = {"working", "been", "doing", "committed", "worked"}
+    NON_NAME_WORDS = {"working", "been", "doing", "committed", "worked", "status"}
     words = name.split()
-    words = [w for w in words if w.lower() not in VERB_WORDS]
+    words = [w for w in words if w.lower() not in NON_NAME_WORDS]
     return " ".join(words[:2]) if words else None
 
 
@@ -133,6 +133,9 @@ def extract_name(query):
 
     Returns the name string or None if not found.
     """
+    # strip possessives before extraction
+    query = re.sub(r"'s\b", "", query)
+
     # always try regex first — fast and works for common patterns
     name = _extract_via_regex(query)
     if name:

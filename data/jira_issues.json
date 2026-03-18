@@ -2,61 +2,10 @@
   "john.smith": {
     "issues": [
       {
-        "id": "77544",
-        "key": "INFRA-809",
+        "id": "62932",
+        "key": "PLATFORM-512",
         "fields": {
-          "summary": "Add unit tests for payment module",
-          "status": {
-            "name": "Done",
-            "statusCategory": {
-              "name": "Done"
-            }
-          },
-          "priority": {
-            "name": "Medium"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-12T18:44:48.000+0000",
-          "assignee": {
-            "displayName": "John Smith",
-            "emailAddress": "john.smith@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "It mission computer necessary go serve.",
-                "created": "2026-03-17T15:29:48.000+0000"
-              },
-              {
-                "body": "Less hold fly plan first speech.",
-                "created": "2026-03-14T15:02:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "66365",
-              "created": "2026-03-14T23:53:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "Blocked"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "56858",
-        "key": "MOBILE-974",
-        "fields": {
-          "summary": "Add dark mode to web application",
+          "summary": "Fix data inconsistency in analytics",
           "status": {
             "name": "Blocked",
             "statusCategory": {
@@ -64,12 +13,12 @@
             }
           },
           "priority": {
-            "name": "Medium"
+            "name": "Highest"
           },
           "issuetype": {
-            "name": "Improvement"
+            "name": "Task"
           },
-          "updated": "2026-03-12T05:16:48.000+0000",
+          "updated": "2026-03-11T08:38:43.000+0000",
           "assignee": {
             "displayName": "John Smith",
             "emailAddress": "john.smith@autonomize.ai"
@@ -77,12 +26,12 @@
           "comment": {
             "comments": [
               {
-                "body": "Life hot thank scientist budget discuss.",
-                "created": "2026-03-11T09:23:48.000+0000"
+                "body": "Political attention simply television Congress.",
+                "created": "2026-03-12T10:00:43.000+0000"
               },
               {
-                "body": "Leave position beautiful our color try.",
-                "created": "2026-03-11T01:32:48.000+0000"
+                "body": "Else fight star smile smile those shake.",
+                "created": "2026-03-12T04:59:43.000+0000"
               }
             ]
           }
@@ -90,82 +39,35 @@
         "changelog": {
           "histories": [
             {
-              "id": "65039",
-              "created": "2026-03-13T09:07:48.000+0000",
+              "id": "74220",
+              "created": "2026-03-18T12:34:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "Done",
+                  "fromString": "In Progress",
                   "toString": "In Progress"
                 }
               ]
             },
             {
-              "id": "41769",
-              "created": "2026-03-14T09:56:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "Blocked"
-                }
-              ]
-            },
-            {
-              "id": "59195",
-              "created": "2026-03-17T22:32:48.000+0000",
+              "id": "42861",
+              "created": "2026-03-13T23:33:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "Done",
-                  "toString": "In Review"
+                  "toString": "To Do"
                 }
               ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "99795",
-        "key": "INFRA-211",
-        "fields": {
-          "summary": "Improve search functionality",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "Medium"
-          },
-          "issuetype": {
-            "name": "Task"
-          },
-          "updated": "2026-03-10T22:13:48.000+0000",
-          "assignee": {
-            "displayName": "John Smith",
-            "emailAddress": "john.smith@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Few certain enough laugh sing.",
-                "created": "2026-03-11T22:21:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
+            },
             {
-              "id": "81137",
-              "created": "2026-03-17T17:02:48.000+0000",
+              "id": "89727",
+              "created": "2026-03-15T22:36:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "In Review"
+                  "fromString": "Blocked",
+                  "toString": "Done"
                 }
               ]
             }
@@ -173,10 +75,10 @@
         }
       },
       {
-        "id": "44868",
-        "key": "INFRA-894",
+        "id": "36474",
+        "key": "MOBILE-145",
         "fields": {
-          "summary": "Implement user authentication flow",
+          "summary": "Add unit tests for payment module",
           "status": {
             "name": "Blocked",
             "statusCategory": {
@@ -184,12 +86,12 @@
             }
           },
           "priority": {
-            "name": "Low"
+            "name": "Highest"
           },
           "issuetype": {
             "name": "Improvement"
           },
-          "updated": "2026-03-11T23:34:48.000+0000",
+          "updated": "2026-03-13T16:44:43.000+0000",
           "assignee": {
             "displayName": "John Smith",
             "emailAddress": "john.smith@autonomize.ai"
@@ -201,24 +103,133 @@
         "changelog": {
           "histories": [
             {
-              "id": "57685",
-              "created": "2026-03-12T21:30:48.000+0000",
+              "id": "95518",
+              "created": "2026-03-11T02:17:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "In Progress",
-                  "toString": "Blocked"
+                  "toString": "Done"
                 }
               ]
-            },
+            }
+          ]
+        }
+      },
+      {
+        "id": "76615",
+        "key": "PLATFORM-548",
+        "fields": {
+          "summary": "Refactor legacy authentication code",
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "High"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-12T21:05:43.000+0000",
+          "assignee": {
+            "displayName": "John Smith",
+            "emailAddress": "john.smith@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Myself middle ago thank do.",
+                "created": "2026-03-18T14:46:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
             {
-              "id": "55457",
-              "created": "2026-03-15T05:44:48.000+0000",
+              "id": "59930",
+              "created": "2026-03-15T07:26:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "Blocked",
                   "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "68534",
+        "key": "QA-394",
+        "fields": {
+          "summary": "Fix data inconsistency in analytics",
+          "status": {
+            "name": "In Review",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-16T12:23:43.000+0000",
+          "assignee": {
+            "displayName": "John Smith",
+            "emailAddress": "john.smith@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Set maintain recognize soldier interesting.",
+                "created": "2026-03-18T07:06:43.000+0000"
+              },
+              {
+                "body": "Bad rich discover here.",
+                "created": "2026-03-11T14:21:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "35487",
+              "created": "2026-03-15T13:44:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "Blocked"
+                }
+              ]
+            },
+            {
+              "id": "92306",
+              "created": "2026-03-16T04:51:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "55150",
+              "created": "2026-03-16T05:15:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
+                  "toString": "In Review"
                 }
               ]
             }
@@ -231,89 +242,23 @@
   "sarah.connor": {
     "issues": [
       {
-        "id": "35980",
-        "key": "MOBILE-669",
+        "id": "72423",
+        "key": "DATA-264",
         "fields": {
-          "summary": "Implement audit logging",
+          "summary": "Resolve intermittent timeout errors",
           "status": {
-            "name": "Done",
+            "name": "To Do",
             "statusCategory": {
-              "name": "Done"
+              "name": "In Progress"
             }
           },
           "priority": {
-            "name": "High"
+            "name": "Medium"
           },
           "issuetype": {
-            "name": "Story"
+            "name": "Bug"
           },
-          "updated": "2026-03-14T18:49:48.000+0000",
-          "assignee": {
-            "displayName": "Sarah Connor",
-            "emailAddress": "sarah.connor@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Attorney necessary among sister look.",
-                "created": "2026-03-14T12:46:48.000+0000"
-              },
-              {
-                "body": "Relate plant must look close your cost.",
-                "created": "2026-03-18T06:55:48.000+0000"
-              },
-              {
-                "body": "Very foreign memory out store.",
-                "created": "2026-03-14T15:01:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "25513",
-              "created": "2026-03-15T04:19:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "To Do"
-                }
-              ]
-            },
-            {
-              "id": "24616",
-              "created": "2026-03-15T03:06:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "In Review"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "67132",
-        "key": "QA-660",
-        "fields": {
-          "summary": "Add dark mode to web application",
-          "status": {
-            "name": "Done",
-            "statusCategory": {
-              "name": "Done"
-            }
-          },
-          "priority": {
-            "name": "Low"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-17T00:19:48.000+0000",
+          "updated": "2026-03-11T14:05:43.000+0000",
           "assignee": {
             "displayName": "Sarah Connor",
             "emailAddress": "sarah.connor@autonomize.ai"
@@ -325,8 +270,19 @@
         "changelog": {
           "histories": [
             {
-              "id": "40663",
-              "created": "2026-03-18T04:42:48.000+0000",
+              "id": "39810",
+              "created": "2026-03-17T17:46:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "62279",
+              "created": "2026-03-15T01:11:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -336,13 +292,13 @@
               ]
             },
             {
-              "id": "55789",
-              "created": "2026-03-12T01:59:48.000+0000",
+              "id": "58225",
+              "created": "2026-03-15T05:48:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "In Review",
-                  "toString": "Blocked"
+                  "toString": "Done"
                 }
               ]
             }
@@ -350,10 +306,10 @@
         }
       },
       {
-        "id": "15923",
-        "key": "TAM-935",
+        "id": "34798",
+        "key": "INFRA-511",
         "fields": {
-          "summary": "Resolve API rate limiting issues",
+          "summary": "Optimise CI/CD pipeline",
           "status": {
             "name": "To Do",
             "statusCategory": {
@@ -361,12 +317,12 @@
             }
           },
           "priority": {
-            "name": "Highest"
+            "name": "High"
           },
           "issuetype": {
-            "name": "Task"
+            "name": "Epic"
           },
-          "updated": "2026-03-17T01:47:48.000+0000",
+          "updated": "2026-03-14T08:33:43.000+0000",
           "assignee": {
             "displayName": "Sarah Connor",
             "emailAddress": "sarah.connor@autonomize.ai"
@@ -374,8 +330,16 @@
           "comment": {
             "comments": [
               {
-                "body": "Keep thing service population activity within.",
-                "created": "2026-03-13T02:47:48.000+0000"
+                "body": "Skin card medical purpose and.",
+                "created": "2026-03-16T03:00:43.000+0000"
+              },
+              {
+                "body": "House where Mrs person.",
+                "created": "2026-03-13T23:16:43.000+0000"
+              },
+              {
+                "body": "Project believe majority after.",
+                "created": "2026-03-16T05:45:43.000+0000"
               }
             ]
           }
@@ -383,13 +347,24 @@
         "changelog": {
           "histories": [
             {
-              "id": "87333",
-              "created": "2026-03-14T19:18:48.000+0000",
+              "id": "38056",
+              "created": "2026-03-13T00:23:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "To Do",
-                  "toString": "In Progress"
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "97019",
+              "created": "2026-03-15T02:10:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "In Review"
                 }
               ]
             }
@@ -397,23 +372,23 @@
         }
       },
       {
-        "id": "37872",
-        "key": "QA-309",
+        "id": "42330",
+        "key": "DATA-943",
         "fields": {
-          "summary": "Implement notification service",
+          "summary": "Migrate database to new schema",
           "status": {
-            "name": "Done",
+            "name": "Blocked",
             "statusCategory": {
-              "name": "Done"
+              "name": "In Progress"
             }
           },
           "priority": {
-            "name": "Highest"
+            "name": "Medium"
           },
           "issuetype": {
-            "name": "Epic"
+            "name": "Story"
           },
-          "updated": "2026-03-18T17:08:48.000+0000",
+          "updated": "2026-03-13T11:45:43.000+0000",
           "assignee": {
             "displayName": "Sarah Connor",
             "emailAddress": "sarah.connor@autonomize.ai"
@@ -421,12 +396,16 @@
           "comment": {
             "comments": [
               {
-                "body": "It should the feel.",
-                "created": "2026-03-11T21:45:48.000+0000"
+                "body": "Everything exist eye special agree meeting.",
+                "created": "2026-03-14T22:14:43.000+0000"
               },
               {
-                "body": "Impact recent be road.",
-                "created": "2026-03-15T11:26:48.000+0000"
+                "body": "Score main eat entire.",
+                "created": "2026-03-14T06:03:43.000+0000"
+              },
+              {
+                "body": "Expect election white difficult shake theory.",
+                "created": "2026-03-15T09:26:43.000+0000"
               }
             ]
           }
@@ -434,23 +413,81 @@
         "changelog": {
           "histories": [
             {
-              "id": "28487",
-              "created": "2026-03-18T13:49:48.000+0000",
+              "id": "35337",
+              "created": "2026-03-16T20:23:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "Done"
+                  "fromString": "In Review",
+                  "toString": "In Review"
                 }
               ]
             },
             {
-              "id": "51580",
-              "created": "2026-03-18T20:07:48.000+0000",
+              "id": "39742",
+              "created": "2026-03-15T01:29:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "To Do",
+                  "fromString": "In Review",
+                  "toString": "To Do"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "29125",
+        "key": "QA-656",
+        "fields": {
+          "summary": "Update onboarding documentation",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "High"
+          },
+          "issuetype": {
+            "name": "Bug"
+          },
+          "updated": "2026-03-12T05:48:43.000+0000",
+          "assignee": {
+            "displayName": "Sarah Connor",
+            "emailAddress": "sarah.connor@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Exactly bit agree east effect plan.",
+                "created": "2026-03-14T10:56:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "80105",
+              "created": "2026-03-15T06:11:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "73722",
+              "created": "2026-03-14T01:36:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
                   "toString": "In Progress"
                 }
               ]
@@ -464,10 +501,10 @@
   "ravi.kumar": {
     "issues": [
       {
-        "id": "39844",
-        "key": "DATA-793",
+        "id": "69864",
+        "key": "DATA-239",
         "fields": {
-          "summary": "Migrate database to new schema",
+          "summary": "Add multi-factor authentication",
           "status": {
             "name": "Done",
             "statusCategory": {
@@ -475,197 +512,12 @@
             }
           },
           "priority": {
-            "name": "High"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-13T20:19:48.000+0000",
-          "assignee": {
-            "displayName": "Ravi Kumar",
-            "emailAddress": "ravi.kumar@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Size choice cell project wait.",
-                "created": "2026-03-13T17:03:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "86789",
-              "created": "2026-03-17T23:16:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Review",
-                  "toString": "In Progress"
-                }
-              ]
-            },
-            {
-              "id": "29403",
-              "created": "2026-03-15T09:22:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "In Progress"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "43438",
-        "key": "PLATFORM-208",
-        "fields": {
-          "summary": "Resolve intermittent timeout errors",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
             "name": "Highest"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-18T05:23:48.000+0000",
-          "assignee": {
-            "displayName": "Ravi Kumar",
-            "emailAddress": "ravi.kumar@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Thing work audience pretty.",
-                "created": "2026-03-16T07:24:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "86143",
-              "created": "2026-03-17T18:51:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "In Progress"
-                }
-              ]
-            },
-            {
-              "id": "13533",
-              "created": "2026-03-12T06:09:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "To Do"
-                }
-              ]
-            },
-            {
-              "id": "44268",
-              "created": "2026-03-12T07:06:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "To Do"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "30902",
-        "key": "QA-138",
-        "fields": {
-          "summary": "Update onboarding documentation",
-          "status": {
-            "name": "In Review",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "High"
           },
           "issuetype": {
             "name": "Story"
           },
-          "updated": "2026-03-15T14:34:48.000+0000",
-          "assignee": {
-            "displayName": "Ravi Kumar",
-            "emailAddress": "ravi.kumar@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Interest physical five difficult fish yard.",
-                "created": "2026-03-17T04:57:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "55177",
-              "created": "2026-03-13T21:11:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "In Progress"
-                }
-              ]
-            },
-            {
-              "id": "81788",
-              "created": "2026-03-16T09:08:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "To Do",
-                  "toString": "To Do"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "66764",
-        "key": "MOBILE-877",
-        "fields": {
-          "summary": "Fix mobile layout on smaller screens",
-          "status": {
-            "name": "In Progress",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "High"
-          },
-          "issuetype": {
-            "name": "Improvement"
-          },
-          "updated": "2026-03-13T01:43:48.000+0000",
+          "updated": "2026-03-16T15:00:43.000+0000",
           "assignee": {
             "displayName": "Ravi Kumar",
             "emailAddress": "ravi.kumar@autonomize.ai"
@@ -677,8 +529,8 @@
         "changelog": {
           "histories": [
             {
-              "id": "72119",
-              "created": "2026-03-14T01:14:48.000+0000",
+              "id": "57145",
+              "created": "2026-03-14T13:04:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -688,29 +540,258 @@
               ]
             },
             {
-              "id": "53933",
-              "created": "2026-03-16T04:22:48.000+0000",
+              "id": "24300",
+              "created": "2026-03-13T05:46:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "Blocked",
-                  "toString": "Done"
+                  "toString": "Blocked"
+                }
+              ]
+            },
+            {
+              "id": "43133",
+              "created": "2026-03-14T13:07:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
+                  "toString": "In Review"
                 }
               ]
             }
           ]
         }
-      }
-    ],
-    "total": 4
-  },
-  "priya.sharma": {
-    "issues": [
+      },
       {
-        "id": "98463",
-        "key": "TAM-342",
+        "id": "78973",
+        "key": "MOBILE-779",
         "fields": {
-          "summary": "Refactor legacy authentication code",
+          "summary": "Improve search functionality",
+          "status": {
+            "name": "In Review",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "High"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-14T10:47:43.000+0000",
+          "assignee": {
+            "displayName": "Ravi Kumar",
+            "emailAddress": "ravi.kumar@autonomize.ai"
+          },
+          "comment": {
+            "comments": []
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "52812",
+              "created": "2026-03-15T05:09:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "66610",
+              "created": "2026-03-11T17:02:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "Blocked"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "83131",
+        "key": "DATA-903",
+        "fields": {
+          "summary": "Resolve intermittent timeout errors",
+          "status": {
+            "name": "Blocked",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "High"
+          },
+          "issuetype": {
+            "name": "Story"
+          },
+          "updated": "2026-03-13T23:45:43.000+0000",
+          "assignee": {
+            "displayName": "Ravi Kumar",
+            "emailAddress": "ravi.kumar@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Career plan law style thousand.",
+                "created": "2026-03-12T08:31:43.000+0000"
+              },
+              {
+                "body": "Interview everybody loss out daughter.",
+                "created": "2026-03-11T13:46:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "67997",
+              "created": "2026-03-15T18:30:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Blocked",
+                  "toString": "Blocked"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "12754",
+        "key": "TAM-634",
+        "fields": {
+          "summary": "Update third party integrations",
+          "status": {
+            "name": "In Review",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "issuetype": {
+            "name": "Improvement"
+          },
+          "updated": "2026-03-15T06:40:43.000+0000",
+          "assignee": {
+            "displayName": "Ravi Kumar",
+            "emailAddress": "ravi.kumar@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Fund thank director man open call work.",
+                "created": "2026-03-12T15:06:43.000+0000"
+              },
+              {
+                "body": "First change crime her.",
+                "created": "2026-03-18T10:29:43.000+0000"
+              },
+              {
+                "body": "Walk ball toward kid.",
+                "created": "2026-03-18T13:10:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "63804",
+              "created": "2026-03-14T15:55:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "18464",
+              "created": "2026-03-13T20:51:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Blocked"
+                }
+              ]
+            },
+            {
+              "id": "99160",
+              "created": "2026-03-15T12:11:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
+                  "toString": "Blocked"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "67312",
+        "key": "TAM-174",
+        "fields": {
+          "summary": "Implement user authentication flow",
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "name": "Low"
+          },
+          "issuetype": {
+            "name": "Improvement"
+          },
+          "updated": "2026-03-13T05:45:43.000+0000",
+          "assignee": {
+            "displayName": "Ravi Kumar",
+            "emailAddress": "ravi.kumar@autonomize.ai"
+          },
+          "comment": {
+            "comments": []
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "88233",
+              "created": "2026-03-14T21:46:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "To Do"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "81080",
+        "key": "DATA-250",
+        "fields": {
+          "summary": "Migrate database to new schema",
           "status": {
             "name": "To Do",
             "statusCategory": {
@@ -721,18 +802,26 @@
             "name": "Medium"
           },
           "issuetype": {
-            "name": "Story"
+            "name": "Improvement"
           },
-          "updated": "2026-03-16T12:02:48.000+0000",
+          "updated": "2026-03-12T15:24:43.000+0000",
           "assignee": {
-            "displayName": "Priya Sharma",
-            "emailAddress": "priya.sharma@autonomize.ai"
+            "displayName": "Ravi Kumar",
+            "emailAddress": "ravi.kumar@autonomize.ai"
           },
           "comment": {
             "comments": [
               {
-                "body": "Whatever main somebody game.",
-                "created": "2026-03-12T01:59:48.000+0000"
+                "body": "Ask radio traditional not toward structure statement.",
+                "created": "2026-03-12T23:15:43.000+0000"
+              },
+              {
+                "body": "Somebody woman machine.",
+                "created": "2026-03-17T02:01:43.000+0000"
+              },
+              {
+                "body": "Air network some everybody wrong.",
+                "created": "2026-03-15T15:03:43.000+0000"
               }
             ]
           }
@@ -740,66 +829,66 @@
         "changelog": {
           "histories": [
             {
-              "id": "56808",
-              "created": "2026-03-16T12:25:48.000+0000",
+              "id": "63929",
+              "created": "2026-03-14T19:33:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "Done",
-                  "toString": "In Progress"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "49232",
-        "key": "QA-999",
-        "fields": {
-          "summary": "Update third party integrations",
-          "status": {
-            "name": "Done",
-            "statusCategory": {
-              "name": "Done"
-            }
-          },
-          "priority": {
-            "name": "Highest"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-14T00:14:48.000+0000",
-          "assignee": {
-            "displayName": "Priya Sharma",
-            "emailAddress": "priya.sharma@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Position or political several pay him cultural.",
-                "created": "2026-03-16T02:33:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "86962",
-              "created": "2026-03-17T00:49:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "To Do",
-                  "toString": "In Progress"
+                  "fromString": "In Progress",
+                  "toString": "Done"
                 }
               ]
             },
             {
-              "id": "57320",
-              "created": "2026-03-18T14:26:48.000+0000",
+              "id": "21219",
+              "created": "2026-03-18T01:02:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Blocked",
+                  "toString": "To Do"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "total": 6
+  },
+  "priya.sharma": {
+    "issues": [
+      {
+        "id": "31062",
+        "key": "INFRA-940",
+        "fields": {
+          "summary": "Add dark mode to web application",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "High"
+          },
+          "issuetype": {
+            "name": "Task"
+          },
+          "updated": "2026-03-12T00:13:43.000+0000",
+          "assignee": {
+            "displayName": "Priya Sharma",
+            "emailAddress": "priya.sharma@autonomize.ai"
+          },
+          "comment": {
+            "comments": []
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "97657",
+              "created": "2026-03-18T03:52:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -812,12 +901,12 @@
         }
       },
       {
-        "id": "31329",
-        "key": "DATA-976",
+        "id": "80896",
+        "key": "INFRA-627",
         "fields": {
-          "summary": "Optimise CI/CD pipeline",
+          "summary": "Improve search functionality",
           "status": {
-            "name": "In Review",
+            "name": "In Progress",
             "statusCategory": {
               "name": "In Progress"
             }
@@ -828,40 +917,20 @@
           "issuetype": {
             "name": "Epic"
           },
-          "updated": "2026-03-15T12:30:48.000+0000",
+          "updated": "2026-03-17T06:58:43.000+0000",
           "assignee": {
             "displayName": "Priya Sharma",
             "emailAddress": "priya.sharma@autonomize.ai"
           },
           "comment": {
-            "comments": [
-              {
-                "body": "On idea than stop so.",
-                "created": "2026-03-11T19:54:48.000+0000"
-              },
-              {
-                "body": "Probably mouth ball position.",
-                "created": "2026-03-13T11:01:48.000+0000"
-              }
-            ]
+            "comments": []
           }
         },
         "changelog": {
           "histories": [
             {
-              "id": "69619",
-              "created": "2026-03-11T09:29:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "To Do"
-                }
-              ]
-            },
-            {
-              "id": "94663",
-              "created": "2026-03-17T06:35:48.000+0000",
+              "id": "76595",
+              "created": "2026-03-18T18:38:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -871,12 +940,70 @@
               ]
             },
             {
-              "id": "90402",
-              "created": "2026-03-18T16:06:48.000+0000",
+              "id": "55044",
+              "created": "2026-03-16T04:30:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "Done",
+                  "toString": "Blocked"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "12914",
+        "key": "INFRA-466",
+        "fields": {
+          "summary": "Fix data inconsistency in analytics",
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "name": "Low"
+          },
+          "issuetype": {
+            "name": "Story"
+          },
+          "updated": "2026-03-12T11:26:43.000+0000",
+          "assignee": {
+            "displayName": "Priya Sharma",
+            "emailAddress": "priya.sharma@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Here rise cut run drug since.",
+                "created": "2026-03-10T21:40:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "32431",
+              "created": "2026-03-14T12:29:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "30055",
+              "created": "2026-03-18T04:49:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
                   "toString": "Done"
                 }
               ]
@@ -890,23 +1017,23 @@
   "mike.johnson": {
     "issues": [
       {
-        "id": "62714",
-        "key": "DATA-605",
+        "id": "63086",
+        "key": "PLATFORM-746",
         "fields": {
-          "summary": "Refactor legacy authentication code",
+          "summary": "Fix memory leak in background jobs",
           "status": {
-            "name": "Done",
+            "name": "Blocked",
             "statusCategory": {
-              "name": "Done"
+              "name": "In Progress"
             }
           },
           "priority": {
-            "name": "Low"
+            "name": "Highest"
           },
           "issuetype": {
-            "name": "Improvement"
+            "name": "Story"
           },
-          "updated": "2026-03-12T17:24:48.000+0000",
+          "updated": "2026-03-15T07:13:43.000+0000",
           "assignee": {
             "displayName": "Mike Johnson",
             "emailAddress": "mike.johnson@autonomize.ai"
@@ -914,8 +1041,16 @@
           "comment": {
             "comments": [
               {
-                "body": "Drug player choose full subject.",
-                "created": "2026-03-14T19:10:48.000+0000"
+                "body": "Make natural south expert once listen manage event.",
+                "created": "2026-03-14T18:48:43.000+0000"
+              },
+              {
+                "body": "Executive today box inside happy yard.",
+                "created": "2026-03-11T07:37:43.000+0000"
+              },
+              {
+                "body": "Create finally see economic picture product suggest.",
+                "created": "2026-03-15T04:35:43.000+0000"
               }
             ]
           }
@@ -923,24 +1058,24 @@
         "changelog": {
           "histories": [
             {
-              "id": "39656",
-              "created": "2026-03-17T16:31:48.000+0000",
+              "id": "54331",
+              "created": "2026-03-16T17:54:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "In Review",
-                  "toString": "To Do"
+                  "toString": "Blocked"
                 }
               ]
             },
             {
-              "id": "76438",
-              "created": "2026-03-11T13:24:48.000+0000",
+              "id": "88334",
+              "created": "2026-03-16T05:46:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "Done",
-                  "toString": "In Review"
+                  "fromString": "To Do",
+                  "toString": "Blocked"
                 }
               ]
             }
@@ -948,10 +1083,10 @@
         }
       },
       {
-        "id": "80030",
-        "key": "QA-503",
+        "id": "78409",
+        "key": "DATA-599",
         "fields": {
-          "summary": "Implement user authentication flow",
+          "summary": "Implement audit logging",
           "status": {
             "name": "To Do",
             "statusCategory": {
@@ -959,12 +1094,12 @@
             }
           },
           "priority": {
-            "name": "Medium"
+            "name": "Highest"
           },
           "issuetype": {
-            "name": "Task"
+            "name": "Story"
           },
-          "updated": "2026-03-17T12:31:48.000+0000",
+          "updated": "2026-03-13T13:45:43.000+0000",
           "assignee": {
             "displayName": "Mike Johnson",
             "emailAddress": "mike.johnson@autonomize.ai"
@@ -972,8 +1107,8 @@
           "comment": {
             "comments": [
               {
-                "body": "Today property hold energy.",
-                "created": "2026-03-13T10:02:48.000+0000"
+                "body": "No dog my environment.",
+                "created": "2026-03-16T10:58:43.000+0000"
               }
             ]
           }
@@ -981,79 +1116,82 @@
         "changelog": {
           "histories": [
             {
-              "id": "29501",
-              "created": "2026-03-15T12:54:48.000+0000",
+              "id": "93630",
+              "created": "2026-03-12T19:36:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Blocked",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "87840",
+              "created": "2026-03-13T10:47:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
+                  "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "90451",
+        "key": "PLATFORM-256",
+        "fields": {
+          "summary": "Update third party integrations",
+          "status": {
+            "name": "Blocked",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Improvement"
+          },
+          "updated": "2026-03-16T06:56:43.000+0000",
+          "assignee": {
+            "displayName": "Mike Johnson",
+            "emailAddress": "mike.johnson@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Wind notice figure social couple.",
+                "created": "2026-03-15T02:11:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "15232",
+              "created": "2026-03-17T09:01:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "36189",
+              "created": "2026-03-18T01:27:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "In Review",
                   "toString": "In Progress"
-                }
-              ]
-            },
-            {
-              "id": "38233",
-              "created": "2026-03-15T16:56:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "In Review"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "28648",
-        "key": "DATA-669",
-        "fields": {
-          "summary": "Fix memory leak in background jobs",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "Low"
-          },
-          "issuetype": {
-            "name": "Bug"
-          },
-          "updated": "2026-03-14T10:57:48.000+0000",
-          "assignee": {
-            "displayName": "Mike Johnson",
-            "emailAddress": "mike.johnson@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Human side anything life for response support.",
-                "created": "2026-03-13T01:28:48.000+0000"
-              },
-              {
-                "body": "Way be test bill enough.",
-                "created": "2026-03-14T22:51:48.000+0000"
-              },
-              {
-                "body": "Position travel race present Congress your.",
-                "created": "2026-03-17T19:27:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "79316",
-              "created": "2026-03-13T16:46:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Review",
-                  "toString": "To Do"
                 }
               ]
             }
@@ -1066,12 +1204,12 @@
   "ananya.iyer": {
     "issues": [
       {
-        "id": "84718",
-        "key": "QA-650",
+        "id": "86879",
+        "key": "INFRA-198",
         "fields": {
-          "summary": "Fix mobile layout on smaller screens",
+          "summary": "Add dark mode to web application",
           "status": {
-            "name": "In Review",
+            "name": "To Do",
             "statusCategory": {
               "name": "In Progress"
             }
@@ -1082,7 +1220,7 @@
           "issuetype": {
             "name": "Story"
           },
-          "updated": "2026-03-17T17:12:48.000+0000",
+          "updated": "2026-03-18T00:52:43.000+0000",
           "assignee": {
             "displayName": "Ananya Iyer",
             "emailAddress": "ananya.iyer@autonomize.ai"
@@ -1090,16 +1228,12 @@
           "comment": {
             "comments": [
               {
-                "body": "Itself important from attorney understand very.",
-                "created": "2026-03-12T15:01:48.000+0000"
+                "body": "Then appear ten perhaps ready catch.",
+                "created": "2026-03-15T10:11:43.000+0000"
               },
               {
-                "body": "Two picture help through own tonight ball.",
-                "created": "2026-03-11T04:21:48.000+0000"
-              },
-              {
-                "body": "International structure head as hundred great sister growth.",
-                "created": "2026-03-14T19:39:48.000+0000"
+                "body": "Many avoid alone short.",
+                "created": "2026-03-11T03:03:43.000+0000"
               }
             ]
           }
@@ -1107,414 +1241,24 @@
         "changelog": {
           "histories": [
             {
-              "id": "39341",
-              "created": "2026-03-17T22:15:48.000+0000",
+              "id": "49668",
+              "created": "2026-03-16T03:31:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "Blocked",
-                  "toString": "Done"
-                }
-              ]
-            },
-            {
-              "id": "72179",
-              "created": "2026-03-14T10:03:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "To Do"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "24970",
-        "key": "MOBILE-719",
-        "fields": {
-          "summary": "Fix memory leak in background jobs",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "High"
-          },
-          "issuetype": {
-            "name": "Story"
-          },
-          "updated": "2026-03-18T19:34:48.000+0000",
-          "assignee": {
-            "displayName": "Ananya Iyer",
-            "emailAddress": "ananya.iyer@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Part rock different rate speech wish.",
-                "created": "2026-03-18T05:40:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "72112",
-              "created": "2026-03-11T12:33:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Review",
-                  "toString": "Done"
-                }
-              ]
-            },
-            {
-              "id": "74432",
-              "created": "2026-03-15T17:06:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "Done"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "43472",
-        "key": "MOBILE-382",
-        "fields": {
-          "summary": "Implement user authentication flow",
-          "status": {
-            "name": "In Progress",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "High"
-          },
-          "issuetype": {
-            "name": "Improvement"
-          },
-          "updated": "2026-03-16T16:36:48.000+0000",
-          "assignee": {
-            "displayName": "Ananya Iyer",
-            "emailAddress": "ananya.iyer@autonomize.ai"
-          },
-          "comment": {
-            "comments": []
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "71894",
-              "created": "2026-03-10T23:00:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "To Do",
-                  "toString": "In Progress"
-                }
-              ]
-            },
-            {
-              "id": "61108",
-              "created": "2026-03-18T17:46:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Review",
-                  "toString": "To Do"
-                }
-              ]
-            },
-            {
-              "id": "90211",
-              "created": "2026-03-15T13:10:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "To Do"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "68475",
-        "key": "TAM-338",
-        "fields": {
-          "summary": "Fix memory leak in background jobs",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "Medium"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-11T00:58:48.000+0000",
-          "assignee": {
-            "displayName": "Ananya Iyer",
-            "emailAddress": "ananya.iyer@autonomize.ai"
-          },
-          "comment": {
-            "comments": []
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "74949",
-              "created": "2026-03-11T00:31:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "To Do"
-                }
-              ]
-            },
-            {
-              "id": "93439",
-              "created": "2026-03-14T05:10:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "To Do",
-                  "toString": "To Do"
-                }
-              ]
-            },
-            {
-              "id": "79842",
-              "created": "2026-03-16T23:35:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "In Progress"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "49443",
-        "key": "INFRA-779",
-        "fields": {
-          "summary": "Implement audit logging",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "Medium"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-16T01:53:48.000+0000",
-          "assignee": {
-            "displayName": "Ananya Iyer",
-            "emailAddress": "ananya.iyer@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Push bill team media.",
-                "created": "2026-03-16T13:46:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "14464",
-              "created": "2026-03-12T14:39:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "To Do",
                   "toString": "In Review"
                 }
               ]
-            },
-            {
-              "id": "31156",
-              "created": "2026-03-17T11:25:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "Blocked"
-                }
-              ]
-            },
-            {
-              "id": "83884",
-              "created": "2026-03-16T19:35:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "In Progress"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ],
-    "total": 5
-  },
-  "lisa.chen": {
-    "issues": [
-      {
-        "id": "44406",
-        "key": "INFRA-119",
-        "fields": {
-          "summary": "Add multi-factor authentication",
-          "status": {
-            "name": "In Progress",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "High"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-11T02:57:48.000+0000",
-          "assignee": {
-            "displayName": "Lisa Chen",
-            "emailAddress": "lisa.chen@autonomize.ai"
-          },
-          "comment": {
-            "comments": []
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "53641",
-              "created": "2026-03-12T10:56:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "In Progress"
-                }
-              ]
-            },
-            {
-              "id": "62598",
-              "created": "2026-03-14T19:55:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "Done"
-                }
-              ]
-            },
-            {
-              "id": "51574",
-              "created": "2026-03-17T04:32:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Review",
-                  "toString": "To Do"
-                }
-              ]
             }
           ]
         }
       },
       {
-        "id": "84642",
-        "key": "TAM-462",
+        "id": "62015",
+        "key": "TAM-371",
         "fields": {
-          "summary": "Update onboarding documentation",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "High"
-          },
-          "issuetype": {
-            "name": "Epic"
-          },
-          "updated": "2026-03-12T15:47:48.000+0000",
-          "assignee": {
-            "displayName": "Lisa Chen",
-            "emailAddress": "lisa.chen@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Tell these assume it design interesting.",
-                "created": "2026-03-16T07:16:48.000+0000"
-              },
-              {
-                "body": "Mr seat main key.",
-                "created": "2026-03-17T05:58:48.000+0000"
-              },
-              {
-                "body": "She likely man discuss and arm we.",
-                "created": "2026-03-18T05:45:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "31798",
-              "created": "2026-03-13T16:24:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Blocked",
-                  "toString": "Blocked"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "64086",
-        "key": "PLATFORM-425",
-        "fields": {
-          "summary": "Implement user authentication flow",
+          "summary": "Migrate database to new schema",
           "status": {
             "name": "In Review",
             "statusCategory": {
@@ -1525,22 +1269,26 @@
             "name": "Low"
           },
           "issuetype": {
-            "name": "Improvement"
+            "name": "Task"
           },
-          "updated": "2026-03-14T13:10:48.000+0000",
+          "updated": "2026-03-13T16:44:43.000+0000",
           "assignee": {
-            "displayName": "Lisa Chen",
-            "emailAddress": "lisa.chen@autonomize.ai"
+            "displayName": "Ananya Iyer",
+            "emailAddress": "ananya.iyer@autonomize.ai"
           },
           "comment": {
             "comments": [
               {
-                "body": "Collection effort picture history.",
-                "created": "2026-03-15T03:48:48.000+0000"
+                "body": "School across begin course prove.",
+                "created": "2026-03-10T22:40:43.000+0000"
               },
               {
-                "body": "More special couple reflect method middle.",
-                "created": "2026-03-14T05:03:48.000+0000"
+                "body": "Whose yourself administration.",
+                "created": "2026-03-14T02:14:43.000+0000"
+              },
+              {
+                "body": "Address professor many country his consumer.",
+                "created": "2026-03-15T06:09:43.000+0000"
               }
             ]
           }
@@ -1548,12 +1296,34 @@
         "changelog": {
           "histories": [
             {
-              "id": "17999",
-              "created": "2026-03-13T15:17:48.000+0000",
+              "id": "70561",
+              "created": "2026-03-16T01:07:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "In Review",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "36681",
+              "created": "2026-03-11T23:19:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "76718",
+              "created": "2026-03-15T01:11:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
                   "toString": "In Review"
                 }
               ]
@@ -1562,10 +1332,10 @@
         }
       },
       {
-        "id": "52154",
-        "key": "PLATFORM-200",
+        "id": "76880",
+        "key": "QA-409",
         "fields": {
-          "summary": "Update third party integrations",
+          "summary": "Add support for bulk user import",
           "status": {
             "name": "Done",
             "statusCategory": {
@@ -1576,26 +1346,18 @@
             "name": "Low"
           },
           "issuetype": {
-            "name": "Epic"
+            "name": "Improvement"
           },
-          "updated": "2026-03-14T16:19:48.000+0000",
+          "updated": "2026-03-18T16:02:43.000+0000",
           "assignee": {
-            "displayName": "Lisa Chen",
-            "emailAddress": "lisa.chen@autonomize.ai"
+            "displayName": "Ananya Iyer",
+            "emailAddress": "ananya.iyer@autonomize.ai"
           },
           "comment": {
             "comments": [
               {
-                "body": "Far ahead light service fly exist.",
-                "created": "2026-03-14T00:30:48.000+0000"
-              },
-              {
-                "body": "Require month deal.",
-                "created": "2026-03-13T19:36:48.000+0000"
-              },
-              {
-                "body": "Agency sport arrive keep fear test.",
-                "created": "2026-03-16T20:51:48.000+0000"
+                "body": "Best thank or past book.",
+                "created": "2026-03-15T12:25:43.000+0000"
               }
             ]
           }
@@ -1603,35 +1365,35 @@
         "changelog": {
           "histories": [
             {
-              "id": "21461",
-              "created": "2026-03-12T01:53:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "To Do",
-                  "toString": "Blocked"
-                }
-              ]
-            },
-            {
-              "id": "48648",
-              "created": "2026-03-15T02:56:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "Blocked"
-                }
-              ]
-            },
-            {
-              "id": "93562",
-              "created": "2026-03-17T13:41:48.000+0000",
+              "id": "57265",
+              "created": "2026-03-18T08:19:43.000+0000",
               "items": [
                 {
                   "field": "status",
                   "fromString": "In Progress",
-                  "toString": "In Review"
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "90458",
+              "created": "2026-03-16T07:47:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "92058",
+              "created": "2026-03-17T16:53:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Done"
                 }
               ]
             }
@@ -1639,70 +1401,10 @@
         }
       },
       {
-        "id": "55318",
-        "key": "QA-524",
+        "id": "12823",
+        "key": "DATA-469",
         "fields": {
-          "summary": "Resolve intermittent timeout errors",
-          "status": {
-            "name": "To Do",
-            "statusCategory": {
-              "name": "In Progress"
-            }
-          },
-          "priority": {
-            "name": "Highest"
-          },
-          "issuetype": {
-            "name": "Task"
-          },
-          "updated": "2026-03-16T02:36:48.000+0000",
-          "assignee": {
-            "displayName": "Lisa Chen",
-            "emailAddress": "lisa.chen@autonomize.ai"
-          },
-          "comment": {
-            "comments": [
-              {
-                "body": "Power field think.",
-                "created": "2026-03-13T08:35:48.000+0000"
-              },
-              {
-                "body": "Though difficult improve laugh area poor common.",
-                "created": "2026-03-17T03:27:48.000+0000"
-              },
-              {
-                "body": "Face factor term behavior teach left must.",
-                "created": "2026-03-11T20:51:48.000+0000"
-              }
-            ]
-          }
-        },
-        "changelog": {
-          "histories": [
-            {
-              "id": "14411",
-              "created": "2026-03-12T09:28:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "Blocked"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ],
-    "total": 5
-  },
-  "arjun.mehta": {
-    "issues": [
-      {
-        "id": "75922",
-        "key": "QA-943",
-        "fields": {
-          "summary": "Add support for bulk user import",
+          "summary": "Fix dashboard loading performance",
           "status": {
             "name": "To Do",
             "statusCategory": {
@@ -1713,44 +1415,140 @@
             "name": "High"
           },
           "issuetype": {
-            "name": "Task"
+            "name": "Improvement"
           },
-          "updated": "2026-03-14T14:19:48.000+0000",
+          "updated": "2026-03-18T08:48:43.000+0000",
           "assignee": {
-            "displayName": "Arjun Mehta",
-            "emailAddress": "arjun.mehta@autonomize.ai"
+            "displayName": "Ananya Iyer",
+            "emailAddress": "ananya.iyer@autonomize.ai"
           },
           "comment": {
-            "comments": []
+            "comments": [
+              {
+                "body": "Reveal threat reflect dinner.",
+                "created": "2026-03-17T10:11:43.000+0000"
+              }
+            ]
           }
         },
         "changelog": {
           "histories": [
             {
-              "id": "59157",
-              "created": "2026-03-14T12:59:48.000+0000",
+              "id": "96517",
+              "created": "2026-03-16T03:20:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "Blocked",
+                  "fromString": "Done",
                   "toString": "To Do"
                 }
               ]
             },
             {
-              "id": "33398",
-              "created": "2026-03-16T23:42:48.000+0000",
+              "id": "36711",
+              "created": "2026-03-17T21:33:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "In Progress",
+                  "fromString": "In Review",
                   "toString": "Blocked"
                 }
               ]
-            },
+            }
+          ]
+        }
+      },
+      {
+        "id": "17255",
+        "key": "MOBILE-948",
+        "fields": {
+          "summary": "Add unit tests for payment module",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-15T15:46:43.000+0000",
+          "assignee": {
+            "displayName": "Ananya Iyer",
+            "emailAddress": "ananya.iyer@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Job product those seem term.",
+                "created": "2026-03-11T04:43:43.000+0000"
+              },
+              {
+                "body": "Do though trial source.",
+                "created": "2026-03-16T09:49:43.000+0000"
+              },
+              {
+                "body": "Figure source white college start present do.",
+                "created": "2026-03-18T12:51:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
             {
-              "id": "54428",
-              "created": "2026-03-16T23:49:48.000+0000",
+              "id": "60695",
+              "created": "2026-03-11T14:55:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "32331",
+        "key": "QA-422",
+        "fields": {
+          "summary": "Improve search functionality",
+          "status": {
+            "name": "Blocked",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Story"
+          },
+          "updated": "2026-03-13T06:02:43.000+0000",
+          "assignee": {
+            "displayName": "Ananya Iyer",
+            "emailAddress": "ananya.iyer@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Loss Congress action stand factor sound.",
+                "created": "2026-03-12T17:11:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "27756",
+              "created": "2026-03-18T21:01:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -1761,12 +1559,247 @@
             }
           ]
         }
+      }
+    ],
+    "total": 6
+  },
+  "lisa.chen": {
+    "issues": [
+      {
+        "id": "60557",
+        "key": "QA-751",
+        "fields": {
+          "summary": "Resolve intermittent timeout errors",
+          "status": {
+            "name": "In Review",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Improvement"
+          },
+          "updated": "2026-03-15T13:05:43.000+0000",
+          "assignee": {
+            "displayName": "Lisa Chen",
+            "emailAddress": "lisa.chen@autonomize.ai"
+          },
+          "comment": {
+            "comments": []
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "62778",
+              "created": "2026-03-15T16:10:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
-        "id": "80431",
-        "key": "TAM-809",
+        "id": "22325",
+        "key": "QA-362",
         "fields": {
-          "summary": "Improve search functionality",
+          "summary": "Optimise CI/CD pipeline",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-15T18:35:43.000+0000",
+          "assignee": {
+            "displayName": "Lisa Chen",
+            "emailAddress": "lisa.chen@autonomize.ai"
+          },
+          "comment": {
+            "comments": []
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "79884",
+              "created": "2026-03-18T18:35:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "15565",
+              "created": "2026-03-11T19:00:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "56014",
+              "created": "2026-03-12T11:25:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "In Progress"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "40667",
+        "key": "PLATFORM-341",
+        "fields": {
+          "summary": "Add export functionality to reports",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "issuetype": {
+            "name": "Bug"
+          },
+          "updated": "2026-03-18T11:22:43.000+0000",
+          "assignee": {
+            "displayName": "Lisa Chen",
+            "emailAddress": "lisa.chen@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "End analysis drug game law wind give.",
+                "created": "2026-03-12T01:01:43.000+0000"
+              },
+              {
+                "body": "Technology cut candidate student southern.",
+                "created": "2026-03-15T00:20:43.000+0000"
+              },
+              {
+                "body": "Challenge among heart.",
+                "created": "2026-03-11T15:03:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "78080",
+              "created": "2026-03-13T02:33:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "64790",
+              "created": "2026-03-17T21:10:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "36284",
+              "created": "2026-03-16T21:28:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "In Review"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30805",
+        "key": "MOBILE-583",
+        "fields": {
+          "summary": "Optimise CI/CD pipeline",
+          "status": {
+            "name": "In Review",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Low"
+          },
+          "issuetype": {
+            "name": "Story"
+          },
+          "updated": "2026-03-10T23:09:43.000+0000",
+          "assignee": {
+            "displayName": "Lisa Chen",
+            "emailAddress": "lisa.chen@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Pattern sport institution senior management.",
+                "created": "2026-03-17T17:35:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "70251",
+              "created": "2026-03-11T15:49:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Blocked",
+                  "toString": "In Progress"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "96351",
+        "key": "QA-782",
+        "fields": {
+          "summary": "Implement notification service",
           "status": {
             "name": "Blocked",
             "statusCategory": {
@@ -1779,16 +1812,20 @@
           "issuetype": {
             "name": "Improvement"
           },
-          "updated": "2026-03-16T03:36:48.000+0000",
+          "updated": "2026-03-14T23:06:43.000+0000",
           "assignee": {
-            "displayName": "Arjun Mehta",
-            "emailAddress": "arjun.mehta@autonomize.ai"
+            "displayName": "Lisa Chen",
+            "emailAddress": "lisa.chen@autonomize.ai"
           },
           "comment": {
             "comments": [
               {
-                "body": "Majority within be wall way to discuss.",
-                "created": "2026-03-18T11:45:48.000+0000"
+                "body": "Officer choose stock our left training agree.",
+                "created": "2026-03-15T14:05:43.000+0000"
+              },
+              {
+                "body": "Walk lot enough can front.",
+                "created": "2026-03-12T08:10:43.000+0000"
               }
             ]
           }
@@ -1796,8 +1833,8 @@
         "changelog": {
           "histories": [
             {
-              "id": "89147",
-              "created": "2026-03-15T21:48:48.000+0000",
+              "id": "39753",
+              "created": "2026-03-16T20:37:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -1807,12 +1844,23 @@
               ]
             },
             {
-              "id": "85791",
-              "created": "2026-03-13T05:33:48.000+0000",
+              "id": "30735",
+              "created": "2026-03-17T19:28:43.000+0000",
               "items": [
                 {
                   "field": "status",
-                  "fromString": "Blocked",
+                  "fromString": "In Review",
+                  "toString": "Blocked"
+                }
+              ]
+            },
+            {
+              "id": "57182",
+              "created": "2026-03-13T16:29:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
                   "toString": "Blocked"
                 }
               ]
@@ -1821,10 +1869,10 @@
         }
       },
       {
-        "id": "51335",
-        "key": "PLATFORM-951",
+        "id": "17945",
+        "key": "MOBILE-858",
         "fields": {
-          "summary": "Fix memory leak in background jobs",
+          "summary": "Add support for bulk user import",
           "status": {
             "name": "Blocked",
             "statusCategory": {
@@ -1832,21 +1880,25 @@
             }
           },
           "priority": {
-            "name": "Medium"
+            "name": "Low"
           },
           "issuetype": {
-            "name": "Story"
+            "name": "Bug"
           },
-          "updated": "2026-03-11T12:50:48.000+0000",
+          "updated": "2026-03-16T04:09:43.000+0000",
           "assignee": {
-            "displayName": "Arjun Mehta",
-            "emailAddress": "arjun.mehta@autonomize.ai"
+            "displayName": "Lisa Chen",
+            "emailAddress": "lisa.chen@autonomize.ai"
           },
           "comment": {
             "comments": [
               {
-                "body": "Fish than arrive daughter.",
-                "created": "2026-03-12T02:48:48.000+0000"
+                "body": "Yard level people theory tree.",
+                "created": "2026-03-18T10:16:43.000+0000"
+              },
+              {
+                "body": "Fact mother move start per bill power development.",
+                "created": "2026-03-18T03:17:43.000+0000"
               }
             ]
           }
@@ -1854,30 +1906,8 @@
         "changelog": {
           "histories": [
             {
-              "id": "49028",
-              "created": "2026-03-12T11:41:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "In Progress",
-                  "toString": "Done"
-                }
-              ]
-            },
-            {
-              "id": "78434",
-              "created": "2026-03-15T15:06:48.000+0000",
-              "items": [
-                {
-                  "field": "status",
-                  "fromString": "Done",
-                  "toString": "Blocked"
-                }
-              ]
-            },
-            {
-              "id": "13071",
-              "created": "2026-03-17T00:41:48.000+0000",
+              "id": "51612",
+              "created": "2026-03-12T02:02:43.000+0000",
               "items": [
                 {
                   "field": "status",
@@ -1890,6 +1920,468 @@
         }
       }
     ],
+    "total": 6
+  },
+  "arjun.mehta": {
+    "issues": [
+      {
+        "id": "81457",
+        "key": "INFRA-168",
+        "fields": {
+          "summary": "Implement audit logging",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "issuetype": {
+            "name": "Bug"
+          },
+          "updated": "2026-03-13T17:18:43.000+0000",
+          "assignee": {
+            "displayName": "Arjun Mehta",
+            "emailAddress": "arjun.mehta@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Under half together policy bit value people.",
+                "created": "2026-03-13T19:56:43.000+0000"
+              },
+              {
+                "body": "Significant close white end.",
+                "created": "2026-03-16T06:45:43.000+0000"
+              },
+              {
+                "body": "Be wide chair feeling.",
+                "created": "2026-03-17T23:53:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "77130",
+              "created": "2026-03-15T18:22:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "31426",
+              "created": "2026-03-13T14:20:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "In Progress"
+                }
+              ]
+            },
+            {
+              "id": "10985",
+              "created": "2026-03-16T13:34:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Blocked",
+                  "toString": "Blocked"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "32110",
+        "key": "QA-598",
+        "fields": {
+          "summary": "Add unit tests for payment module",
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-15T03:35:43.000+0000",
+          "assignee": {
+            "displayName": "Arjun Mehta",
+            "emailAddress": "arjun.mehta@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Mention suffer alone.",
+                "created": "2026-03-16T21:20:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "16468",
+              "created": "2026-03-11T15:18:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "18937",
+        "key": "MOBILE-931",
+        "fields": {
+          "summary": "Fix memory leak in background jobs",
+          "status": {
+            "name": "Blocked",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Task"
+          },
+          "updated": "2026-03-16T11:04:43.000+0000",
+          "assignee": {
+            "displayName": "Arjun Mehta",
+            "emailAddress": "arjun.mehta@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Statement school worry hotel the response.",
+                "created": "2026-03-12T05:59:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "51771",
+              "created": "2026-03-13T04:57:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Blocked",
+                  "toString": "To Do"
+                }
+              ]
+            },
+            {
+              "id": "93058",
+              "created": "2026-03-12T00:32:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "20535",
+              "created": "2026-03-14T16:40:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Progress",
+                  "toString": "In Review"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
     "total": 3
+  },
+  "ankit.prasad": {
+    "issues": [
+      {
+        "id": "45320",
+        "key": "TAM-887",
+        "fields": {
+          "summary": "Add support for bulk user import",
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "name": "Highest"
+          },
+          "issuetype": {
+            "name": "Improvement"
+          },
+          "updated": "2026-03-16T19:42:43.000+0000",
+          "assignee": {
+            "displayName": "Ankit Prasad",
+            "emailAddress": "ankit.prasad@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Call new movie although.",
+                "created": "2026-03-15T15:09:43.000+0000"
+              },
+              {
+                "body": "Interview month tell several house.",
+                "created": "2026-03-10T22:59:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "65579",
+              "created": "2026-03-15T20:50:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "In Progress"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "58160",
+        "key": "QA-874",
+        "fields": {
+          "summary": "Resolve API rate limiting issues",
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "issuetype": {
+            "name": "Story"
+          },
+          "updated": "2026-03-13T08:42:43.000+0000",
+          "assignee": {
+            "displayName": "Ankit Prasad",
+            "emailAddress": "ankit.prasad@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Anything during early.",
+                "created": "2026-03-11T04:39:43.000+0000"
+              },
+              {
+                "body": "Mr land anyone act bed necessary become.",
+                "created": "2026-03-12T07:38:43.000+0000"
+              },
+              {
+                "body": "Fly surface senior shake instead certainly he color.",
+                "created": "2026-03-16T21:25:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "87671",
+              "created": "2026-03-18T20:27:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "72565",
+              "created": "2026-03-18T19:20:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "Done"
+                }
+              ]
+            },
+            {
+              "id": "79125",
+              "created": "2026-03-11T23:07:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "58722",
+        "key": "TAM-543",
+        "fields": {
+          "summary": "Fix memory leak in background jobs",
+          "status": {
+            "name": "Blocked",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "High"
+          },
+          "issuetype": {
+            "name": "Epic"
+          },
+          "updated": "2026-03-12T03:38:43.000+0000",
+          "assignee": {
+            "displayName": "Ankit Prasad",
+            "emailAddress": "ankit.prasad@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Remain big though out part instead.",
+                "created": "2026-03-13T17:17:43.000+0000"
+              },
+              {
+                "body": "Find fact sit consumer result others.",
+                "created": "2026-03-16T17:51:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "65280",
+              "created": "2026-03-11T20:15:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "44864",
+              "created": "2026-03-11T10:41:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "Done"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "46117",
+        "key": "INFRA-586",
+        "fields": {
+          "summary": "Update third party integrations",
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "name": "In Progress"
+            }
+          },
+          "priority": {
+            "name": "Low"
+          },
+          "issuetype": {
+            "name": "Task"
+          },
+          "updated": "2026-03-13T01:32:43.000+0000",
+          "assignee": {
+            "displayName": "Ankit Prasad",
+            "emailAddress": "ankit.prasad@autonomize.ai"
+          },
+          "comment": {
+            "comments": [
+              {
+                "body": "Itself present buy address painting until truth.",
+                "created": "2026-03-17T13:50:43.000+0000"
+              }
+            ]
+          }
+        },
+        "changelog": {
+          "histories": [
+            {
+              "id": "31427",
+              "created": "2026-03-17T04:31:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "To Do",
+                  "toString": "Blocked"
+                }
+              ]
+            },
+            {
+              "id": "89915",
+              "created": "2026-03-11T04:50:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "In Review",
+                  "toString": "In Review"
+                }
+              ]
+            },
+            {
+              "id": "17603",
+              "created": "2026-03-15T11:16:43.000+0000",
+              "items": [
+                {
+                  "field": "status",
+                  "fromString": "Done",
+                  "toString": "In Progress"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "total": 4
   }
 }
