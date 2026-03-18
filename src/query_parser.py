@@ -42,19 +42,19 @@ def _extract_via_regex(query):
     # pattern 1: "for <Name>"
     match = re.search(r'\bfor\s+([A-Za-z]+(?:\s+[A-Za-z]+)?)', query)
     if match:
-        return match.group(1)
+        return _clean_name(match.group(1))
 
     # pattern 2: "is/has <Name>"
     match = re.search(r'\b(?:is|has)\s+([A-Za-z]+(?:\s+[A-Za-z]+)?)', query)
     if match:
-        return match.group(1)
+        return _clean_name(match.group(1))
 
     # pattern 3: any capitalised word not in stop words
     words = query.split()
     for word in words:
         cleaned = re.sub(r'[^a-zA-Z]', '', word)
         if cleaned and cleaned.lower() not in STOP_WORDS:
-            return cleaned
+            return _clean_name(cleaned)
 
     return None
 
