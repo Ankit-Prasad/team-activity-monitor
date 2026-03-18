@@ -2,7 +2,9 @@
 # TAM - Team Activity Monitor
 # Main application entry point — CLI interface
 
+import time
 import concurrent.futures
+from config.config import CACHE_TTL
 from src.jira_client import get_user_issues, get_issue_updates
 from src.github_client import get_recent_commits, get_pull_requests, get_contributed_repos
 from src.query_parser import extract_name, is_valid_query
@@ -26,11 +28,27 @@ Example queries:
 """
 
 
+# simple in-memory cache — stores results for CACHE_TTL seconds
+_cache = {}
+
+
 def fetch_all_data(username):
     """
     Fetch JIRA and GitHub data concurrently for a given username.
     Uses ThreadPoolExecutor to run all API calls in parallel.
+    Results are cached for CACHE_TTL seconds to avoid redundant API calls.
     """
+    username_lower = username.lower()
+    now = time.time()
+
+    # return cached result if still valid
+    if username_lower in _cache:
+        cached_at, cached_data = _cache[username_lower]
+        if now - cached_at < CACHE_TTL:
+            print(f"[TAM] Returning cached data for '{username}'")
+            return cached_data
+    
+    # fetch fresh data concurrently
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future_jira_issues     = executor.submit(get_user_issues, username)
         future_commits         = executor.submit(get_recent_commits, username)
@@ -48,7 +66,12 @@ def fetch_all_data(username):
         first_issue_key = jira_issues["issues"][0]["key"]
         jira_updates = get_issue_updates(first_issue_key)
 
-    return jira_issues, jira_updates, commits, pull_requests, repos
+    result = (jira_issues, jira_updates, commits, pull_requests, repos)
+
+    # store in cache
+    _cache[username_lower] = (now, result)
+
+    return result
 
 
 def handle_query(query):
