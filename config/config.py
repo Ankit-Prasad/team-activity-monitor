@@ -27,3 +27,6 @@ OPENAI_EXTRACTION_TEMPERATURE = 0  # deterministic for name extraction
 # Query Parser
 NAME_EXTRACTION_MODE = os.getenv("NAME_EXTRACTION_MODE", "basic")
 CACHE_TTL = int(os.getenv("CACHE_TTL", 300))  # default 5 minutes
+
+# Mock Data
+USE_MOCK_DATA = os.getenv("USE_MOCK_DATA", "true").lower() == "true"

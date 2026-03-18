@@ -1,0 +1,42 @@
+[
+  {
+    "name": "John Smith",
+    "jira_username": "john.smith",
+    "github_username": "johnsmith"
+  },
+  {
+    "name": "Sarah Connor",
+    "jira_username": "sarah.connor",
+    "github_username": "sarahconnor"
+  },
+  {
+    "name": "Ravi Kumar",
+    "jira_username": "ravi.kumar",
+    "github_username": "ravikumar"
+  },
+  {
+    "name": "Priya Sharma",
+    "jira_username": "priya.sharma",
+    "github_username": "priyasharma"
+  },
+  {
+    "name": "Mike Johnson",
+    "jira_username": "mike.johnson",
+    "github_username": "mikejohnson"
+  },
+  {
+    "name": "Ananya Iyer",
+    "jira_username": "ananya.iyer",
+    "github_username": "ananyaiyer"
+  },
+  {
+    "name": "Lisa Chen",
+    "jira_username": "lisa.chen",
+    "github_username": "lisachen"
+  },
+  {
+    "name": "Arjun Mehta",
+    "jira_username": "arjun.mehta",
+    "github_username": "arjunmehta"
+  }
+]

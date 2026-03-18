@@ -1,0 +1,1300 @@
+{
+  "johnsmith": {
+    "commits": {
+      "total_count": 5,
+      "items": [
+        {
+          "sha": "fefd29a52dad5b16c52d35417249b5672e107fbc",
+          "commit": {
+            "message": "chore: update dependencies to latest versions",
+            "author": {
+              "name": "John Smith",
+              "email": "johnsmith@autonomize.ai",
+              "date": "2026-03-11T07:43:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/0a1c2fc77c5f575fda51d12775d5bd28458db7b1"
+        },
+        {
+          "sha": "fbf77776d9427288bfb2f2aa6ce9aed8144fb8fb",
+          "commit": {
+            "message": "feat: add pagination support to issues endpoint",
+            "author": {
+              "name": "John Smith",
+              "email": "johnsmith@autonomize.ai",
+              "date": "2026-03-12T01:28:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/67e02b8d451080c939b129f795e45f0a60853d79"
+        },
+        {
+          "sha": "8ae21514456354aabc769c9c42922500f20dbc12",
+          "commit": {
+            "message": "refactor: clean up authentication middleware",
+            "author": {
+              "name": "John Smith",
+              "email": "johnsmith@autonomize.ai",
+              "date": "2026-03-17T16:21:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/e8bd894fb01d76536048f2ec5f654d2b8259a87d"
+        },
+        {
+          "sha": "fe1e1b6dcb706ee9c316575a008076baab18fb21",
+          "commit": {
+            "message": "feat: implement dark mode support",
+            "author": {
+              "name": "John Smith",
+              "email": "johnsmith@autonomize.ai",
+              "date": "2026-03-17T05:22:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/b1d4b86fbad128c698489a7bb26d157349ab1d86"
+        },
+        {
+          "sha": "60e9e03775f4f852353b443f934cb79dd35e3966",
+          "commit": {
+            "message": "feat: integrate third party logging service",
+            "author": {
+              "name": "John Smith",
+              "email": "johnsmith@autonomize.ai",
+              "date": "2026-03-15T00:56:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/data-pipeline",
+            "html_url": "https://github.com/autonomize-ai/data-pipeline"
+          },
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/commit/4482a7064f95001bdaed9631dab6d970d94bdc59"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 1,
+      "items": [
+        {
+          "number": 233,
+          "title": "Add rate limiting to public endpoints",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/auth-service/pull/178",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/auth-service",
+          "updated_at": "2026-03-16T20:41:48.000+0000",
+          "user": {
+            "login": "johnsmith"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/auth-service",
+      "autonomize-ai/data-pipeline",
+      "autonomize-ai/mobile-app"
+    ]
+  },
+  "sarahconnor": {
+    "commits": {
+      "total_count": 7,
+      "items": [
+        {
+          "sha": "9a3777cc5b60888a1ce56c0e5a1cd058896e7565",
+          "commit": {
+            "message": "perf: optimize database queries for reports",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-12T20:33:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/a3306d6799ca4a8226ae28be53c1036d629f8076"
+        },
+        {
+          "sha": "97dfa32894f7542536b5d9b17007881a29124957",
+          "commit": {
+            "message": "test: add unit tests for payment module",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-15T12:26:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/13345fcdc15be6feb76c4cae3b2db8f219502e3d"
+        },
+        {
+          "sha": "39070db08a96df712d1113676f7cb63a53f8d843",
+          "commit": {
+            "message": "refactor: extract common utilities to shared module",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-13T04:10:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/infra-terraform",
+            "html_url": "https://github.com/autonomize-ai/infra-terraform"
+          },
+          "html_url": "https://github.com/autonomize-ai/infra-terraform/commit/45c9306088bdba9dcf0a1255e48c77d85cf97264"
+        },
+        {
+          "sha": "789e226fe520a4374ef4e20bd0d50d53f08d1441",
+          "commit": {
+            "message": "feat: add retry logic for failed API calls",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-15T11:58:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/infra-terraform",
+            "html_url": "https://github.com/autonomize-ai/infra-terraform"
+          },
+          "html_url": "https://github.com/autonomize-ai/infra-terraform/commit/16248868100ae85da04a75aa40e6042def2a7efa"
+        },
+        {
+          "sha": "e99f216a786cc45f59b13b07bbb1be1d001c2a13",
+          "commit": {
+            "message": "refactor: extract common utilities to shared module",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-16T03:32:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/3c8d991114c02587259edce9ae4460238a182222"
+        },
+        {
+          "sha": "979aad2d553da01ef5df7ce9843a240886504be7",
+          "commit": {
+            "message": "perf: optimize database queries for reports",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-11T06:26:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/5a6ea5d859e7e24547771e996c5a7506d7f7e5c0"
+        },
+        {
+          "sha": "81fc29f3e70f4433741583087a8b3e9a142766f5",
+          "commit": {
+            "message": "fix: resolve race condition in async handler",
+            "author": {
+              "name": "Sarah Connor",
+              "email": "sarahconnor@autonomize.ai",
+              "date": "2026-03-12T11:32:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/1e1d250f103a34446edab35adc2af1dbe55866a7"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 2,
+      "items": [
+        {
+          "number": 455,
+          "title": "Fix authentication token expiry bug",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/pull/535",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/data-pipeline",
+          "updated_at": "2026-03-10T21:48:48.000+0000",
+          "user": {
+            "login": "sarahconnor"
+          }
+        },
+        {
+          "number": 342,
+          "title": "Refactor database connection pooling",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/pull/577",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/data-pipeline",
+          "updated_at": "2026-03-12T14:36:48.000+0000",
+          "user": {
+            "login": "sarahconnor"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/analytics-dashboard",
+      "autonomize-ai/data-pipeline",
+      "autonomize-ai/infra-terraform",
+      "autonomize-ai/notification-service"
+    ]
+  },
+  "ravikumar": {
+    "commits": {
+      "total_count": 9,
+      "items": [
+        {
+          "sha": "bc3e4f999d5869aef47ead0d0b3c6997ed1f3069",
+          "commit": {
+            "message": "fix: resolve race condition in async handler",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-17T04:06:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/6cc8309090fd9d548b838aaf44b14215ff79245e"
+        },
+        {
+          "sha": "5e8b3a369b2e6f2208a44624746572fd6dccc141",
+          "commit": {
+            "message": "feat: add pagination support to issues endpoint",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-11T17:24:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/8a2a159825aa9d384c79c439ee57eebdd3699af0"
+        },
+        {
+          "sha": "0e0800d74e20b45d74a0663f7ffdd1123763004e",
+          "commit": {
+            "message": "feat: add retry logic for failed API calls",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-14T21:20:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/1ae241673e3f885570a51c5a409574d0c7733248"
+        },
+        {
+          "sha": "0b9a39a13a0225c08f9bae1bade29caf1d71d65d",
+          "commit": {
+            "message": "feat: implement dark mode support",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-16T11:39:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/data-pipeline",
+            "html_url": "https://github.com/autonomize-ai/data-pipeline"
+          },
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/commit/27424a022b7e68ab785e13ae4ed0222bd7864c8e"
+        },
+        {
+          "sha": "87fb9dc0c46485d29b9a0dbc3f3688ecad953200",
+          "commit": {
+            "message": "fix: correct date formatting in dashboard",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-12T19:51:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/data-pipeline",
+            "html_url": "https://github.com/autonomize-ai/data-pipeline"
+          },
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/commit/259f25d758f7da764f518ef75db13ebbf66f91f0"
+        },
+        {
+          "sha": "6b03664c6251f1f9e40ad06ba3febb70039f1ce5",
+          "commit": {
+            "message": "refactor: extract common utilities to shared module",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-12T16:06:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/2224d867bc1abfd9fb3251b73966526e5400b49e"
+        },
+        {
+          "sha": "7c7c76d84ff2f0bd96d562dd54cacab0dc866b11",
+          "commit": {
+            "message": "refactor: extract common utilities to shared module",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-13T16:25:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/9a5a282bc62207f09e6ddd1571462f858bdf80c4"
+        },
+        {
+          "sha": "4ca8b772463477cf928bd84720b5403a12adf452",
+          "commit": {
+            "message": "feat: implement caching for frequent queries",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-11T21:40:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/62d4f8ae0c90b4454f3732a3a0b975992a8775b1"
+        },
+        {
+          "sha": "f49e972c7cbc586088c67746eb21d5fe27232827",
+          "commit": {
+            "message": "test: improve test coverage for auth module",
+            "author": {
+              "name": "Ravi Kumar",
+              "email": "ravikumar@autonomize.ai",
+              "date": "2026-03-15T23:17:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/2dbcfac225baf59143db7ffc5a586fff62efb168"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 3,
+      "items": [
+        {
+          "number": 750,
+          "title": "Implement new dashboard analytics",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/notification-service/pull/533",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/notification-service",
+          "updated_at": "2026-03-18T01:30:48.000+0000",
+          "user": {
+            "login": "ravikumar"
+          }
+        },
+        {
+          "number": 814,
+          "title": "Migrate legacy endpoints to v2",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/pull/547",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/data-pipeline",
+          "updated_at": "2026-03-13T09:57:48.000+0000",
+          "user": {
+            "login": "ravikumar"
+          }
+        },
+        {
+          "number": 455,
+          "title": "Fix authentication token expiry bug",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/pull/423",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/data-pipeline",
+          "updated_at": "2026-03-12T07:38:48.000+0000",
+          "user": {
+            "login": "ravikumar"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/analytics-dashboard",
+      "autonomize-ai/data-pipeline",
+      "autonomize-ai/notification-service",
+      "autonomize-ai/auth-service"
+    ]
+  },
+  "priyasharma": {
+    "commits": {
+      "total_count": 6,
+      "items": [
+        {
+          "sha": "537bda3a201a037928476228383fc5e452998a2f",
+          "commit": {
+            "message": "fix: resolve race condition in async handler",
+            "author": {
+              "name": "Priya Sharma",
+              "email": "priyasharma@autonomize.ai",
+              "date": "2026-03-12T19:33:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/646adc2ae6d315c02e55b557a4ffeaec021b0376"
+        },
+        {
+          "sha": "285beab8c7c1ea9d83c8cf5910963fc7a2b864ff",
+          "commit": {
+            "message": "perf: optimize database queries for reports",
+            "author": {
+              "name": "Priya Sharma",
+              "email": "priyasharma@autonomize.ai",
+              "date": "2026-03-15T07:59:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/4f13cc2a7aa8c32343e6e0d0eaadc9258ba855b9"
+        },
+        {
+          "sha": "2b6fc2711a11c1f99d3265997fdcae43f976d4fc",
+          "commit": {
+            "message": "fix: resolve race condition in async handler",
+            "author": {
+              "name": "Priya Sharma",
+              "email": "priyasharma@autonomize.ai",
+              "date": "2026-03-11T19:46:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/aa0248b0f0a5df9eaebd3bce910e4efdf5eb6f1e"
+        },
+        {
+          "sha": "e15e412eb498c7784fa42c1882c2aeaddf4396c0",
+          "commit": {
+            "message": "refactor: clean up authentication middleware",
+            "author": {
+              "name": "Priya Sharma",
+              "email": "priyasharma@autonomize.ai",
+              "date": "2026-03-13T17:06:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/efabd05cea114bbb34947e639fcbe7d8f8ce718c"
+        },
+        {
+          "sha": "4f5d3ce167b939c59e8b8d8826ced3477f82776e",
+          "commit": {
+            "message": "feat: add retry logic for failed API calls",
+            "author": {
+              "name": "Priya Sharma",
+              "email": "priyasharma@autonomize.ai",
+              "date": "2026-03-17T22:26:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/812d3da564d4ca163f2669e1c9d4b1770142775c"
+        },
+        {
+          "sha": "fa65b04bd3e1b6ebaa59b0b77ced5c245193b5a4",
+          "commit": {
+            "message": "feat: implement caching for frequent queries",
+            "author": {
+              "name": "Priya Sharma",
+              "email": "priyasharma@autonomize.ai",
+              "date": "2026-03-16T16:53:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/bee61229cb0c9c8217ad9967843662eeed1ee0cc"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 3,
+      "items": [
+        {
+          "number": 295,
+          "title": "Optimise image loading performance",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/auth-service/pull/979",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/auth-service",
+          "updated_at": "2026-03-12T14:08:48.000+0000",
+          "user": {
+            "login": "priyasharma"
+          }
+        },
+        {
+          "number": 163,
+          "title": "Add multi-language support",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/frontend-app/pull/634",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/frontend-app",
+          "updated_at": "2026-03-14T19:25:48.000+0000",
+          "user": {
+            "login": "priyasharma"
+          }
+        },
+        {
+          "number": 977,
+          "title": "Add pagination to user listing API",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/frontend-app/pull/814",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/frontend-app",
+          "updated_at": "2026-03-13T01:44:48.000+0000",
+          "user": {
+            "login": "priyasharma"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/auth-service",
+      "autonomize-ai/backend-api",
+      "autonomize-ai/mobile-app",
+      "autonomize-ai/frontend-app"
+    ]
+  },
+  "mikejohnson": {
+    "commits": {
+      "total_count": 8,
+      "items": [
+        {
+          "sha": "e09299e5bf17ff44f5afd11de6fc82d5fe86b4fb",
+          "commit": {
+            "message": "feat: integrate third party logging service",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-13T00:26:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/b56f18727fcbf399f7fcbd1b85bcf5a868dde09d"
+        },
+        {
+          "sha": "39d4101e1ab6fd1974160f85a7fbe6c648f87d94",
+          "commit": {
+            "message": "docs: update API documentation",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-12T07:06:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/8e00c09050df71e940c2a2162a0ffbef57b48c68"
+        },
+        {
+          "sha": "c63dc7af117f7252106c24769dff55f2c90c2b98",
+          "commit": {
+            "message": "feat: implement caching for frequent queries",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-14T07:01:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/adea2a2ea1f816b2eec59d3dbc5cdf1fe238c384"
+        },
+        {
+          "sha": "69d5102d98950aae8eb88818e3e7540d4a24eb75",
+          "commit": {
+            "message": "feat: implement dark mode support",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-17T16:56:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/72f57c9abed7006e7ea64711e91c818726a93c73"
+        },
+        {
+          "sha": "eb3342091fd536ba0f267fafb86af57c4eadde8c",
+          "commit": {
+            "message": "fix: handle edge case in data processing pipeline",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-11T12:56:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/1581aefb6f1ee0d10bf4b56f2616a5d07cd126e8"
+        },
+        {
+          "sha": "2c0e96c137de0cadf389e5277f8506d7c63943ca",
+          "commit": {
+            "message": "feat: add retry logic for failed API calls",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-11T06:01:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/9446640df10b0d1279a84dce668c631b32655c23"
+        },
+        {
+          "sha": "954c68cf6be9981910e96b041203ff523ed1cc3f",
+          "commit": {
+            "message": "feat: add pagination support to issues endpoint",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-12T02:14:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/analytics-dashboard",
+            "html_url": "https://github.com/autonomize-ai/analytics-dashboard"
+          },
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/commit/ba76f6446c348c83ea2b5e1609f377db879701ee"
+        },
+        {
+          "sha": "bb8822dc4e84fa6e1f03b639159fb8f168969ad2",
+          "commit": {
+            "message": "perf: optimize database queries for reports",
+            "author": {
+              "name": "Mike Johnson",
+              "email": "mikejohnson@autonomize.ai",
+              "date": "2026-03-16T01:36:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/backend-api",
+            "html_url": "https://github.com/autonomize-ai/backend-api"
+          },
+          "html_url": "https://github.com/autonomize-ai/backend-api/commit/9022d2aee7d6efceebc21c5186ea1b66ac2a35ee"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 1,
+      "items": [
+        {
+          "number": 998,
+          "title": "Migrate legacy endpoints to v2",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/notification-service/pull/588",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/notification-service",
+          "updated_at": "2026-03-12T04:48:48.000+0000",
+          "user": {
+            "login": "mikejohnson"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/analytics-dashboard",
+      "autonomize-ai/backend-api",
+      "autonomize-ai/notification-service"
+    ]
+  },
+  "ananyaiyer": {
+    "commits": {
+      "total_count": 6,
+      "items": [
+        {
+          "sha": "546d43751be6250a3eb01c053b19b951025b952f",
+          "commit": {
+            "message": "fix: correct date formatting in dashboard",
+            "author": {
+              "name": "Ananya Iyer",
+              "email": "ananyaiyer@autonomize.ai",
+              "date": "2026-03-14T00:50:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/76adfa68eef686e1108c7452a9c2eebd9a0b2fec"
+        },
+        {
+          "sha": "f79220829dfbb4a75260fe3af0e160e52c08e38b",
+          "commit": {
+            "message": "test: add unit tests for payment module",
+            "author": {
+              "name": "Ananya Iyer",
+              "email": "ananyaiyer@autonomize.ai",
+              "date": "2026-03-15T11:48:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/a5e17ba7ef56af29ffe8006a6a59b88912b84a34"
+        },
+        {
+          "sha": "88ec171e46865f2f5e35c39fb20d11c6b29efa1e",
+          "commit": {
+            "message": "feat: add pagination support to issues endpoint",
+            "author": {
+              "name": "Ananya Iyer",
+              "email": "ananyaiyer@autonomize.ai",
+              "date": "2026-03-15T01:05:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/68ca7b9e558752c34f13d426018af89b39a77174"
+        },
+        {
+          "sha": "70d8b2abd6d1a07bf205468374bd929922c6ba14",
+          "commit": {
+            "message": "fix: correct timezone handling in scheduler",
+            "author": {
+              "name": "Ananya Iyer",
+              "email": "ananyaiyer@autonomize.ai",
+              "date": "2026-03-14T09:28:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/f762af1ea6b85720598fbf7dc95310eb7bf0ca8e"
+        },
+        {
+          "sha": "f59242b0d4238ff96fa052340c0fc7e64bc6ffe3",
+          "commit": {
+            "message": "refactor: extract common utilities to shared module",
+            "author": {
+              "name": "Ananya Iyer",
+              "email": "ananyaiyer@autonomize.ai",
+              "date": "2026-03-14T16:22:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/3fff81d4e3651a4f7000a36313fad98c9504a2a9"
+        },
+        {
+          "sha": "de97181a2ab78e50a285e2450e230622402ee189",
+          "commit": {
+            "message": "fix: correct timezone handling in scheduler",
+            "author": {
+              "name": "Ananya Iyer",
+              "email": "ananyaiyer@autonomize.ai",
+              "date": "2026-03-15T18:53:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/notification-service",
+            "html_url": "https://github.com/autonomize-ai/notification-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/notification-service/commit/4e70991e244592b0b3f6207e4b0d4094161b0f7a"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 3,
+      "items": [
+        {
+          "number": 581,
+          "title": "Fix mobile responsiveness issues",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/mobile-app/pull/678",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/mobile-app",
+          "updated_at": "2026-03-16T09:05:48.000+0000",
+          "user": {
+            "login": "ananyaiyer"
+          }
+        },
+        {
+          "number": 306,
+          "title": "Fix mobile responsiveness issues",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/mobile-app/pull/163",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/mobile-app",
+          "updated_at": "2026-03-13T09:23:48.000+0000",
+          "user": {
+            "login": "ananyaiyer"
+          }
+        },
+        {
+          "number": 784,
+          "title": "Fix data sync issue between services",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/mobile-app/pull/808",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/mobile-app",
+          "updated_at": "2026-03-13T18:07:48.000+0000",
+          "user": {
+            "login": "ananyaiyer"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/auth-service",
+      "autonomize-ai/mobile-app",
+      "autonomize-ai/notification-service"
+    ]
+  },
+  "lisachen": {
+    "commits": {
+      "total_count": 10,
+      "items": [
+        {
+          "sha": "a89ef4b18ff7ca5e9c6fef15c95af89bfed10558",
+          "commit": {
+            "message": "feat: implement dark mode support",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-11T09:50:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/2c47b5999604a71c3da25fb27304e0efaf6f1cd9"
+        },
+        {
+          "sha": "e3392443b8d9c71bd466339619c5776dda4f8d6e",
+          "commit": {
+            "message": "test: add unit tests for payment module",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-15T19:39:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/22d65c8fdc894ccf1de809d4cc0e59964d3c94ea"
+        },
+        {
+          "sha": "46de9abfdbcad8d70a18ccd837a9094d3b22cd0e",
+          "commit": {
+            "message": "fix: handle edge case in data processing pipeline",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-11T06:02:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/a97fd9ec57380bf76482be0ab5864e513f297a73"
+        },
+        {
+          "sha": "33f4f6a896559a83b0947c4a7e3fb8ca70571056",
+          "commit": {
+            "message": "fix: correct timezone handling in scheduler",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-12T19:18:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/0ff8cef815aa1a3a5cc5d7bbd0703cff0d23cae7"
+        },
+        {
+          "sha": "7b4fcdef77f08345da77a067bbede53690c971ce",
+          "commit": {
+            "message": "refactor: extract common utilities to shared module",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-18T18:53:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/84b0e3dec71cc49b49cd53dc05d02a7222c12173"
+        },
+        {
+          "sha": "5cf122c42ad6f0327fbd8e1cac74d40e4eb68c9f",
+          "commit": {
+            "message": "feat: integrate third party logging service",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-11T10:36:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/2c9a10ae3c07b883571c39a6274ec53189902cdb"
+        },
+        {
+          "sha": "cc54cd7087675c8c9e0b8ea52d9f98b05210a9c3",
+          "commit": {
+            "message": "fix: handle edge case in data processing pipeline",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-16T02:08:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/mobile-app",
+            "html_url": "https://github.com/autonomize-ai/mobile-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/mobile-app/commit/c9d1a75afe838688525052593233a61f02916204"
+        },
+        {
+          "sha": "45d14b945e13fcedfe9312c4b18b96531529ad37",
+          "commit": {
+            "message": "docs: update API documentation",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-18T07:16:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/ea5c5308289dfa68cb29c83ba19643cab995c571"
+        },
+        {
+          "sha": "c13d7de39d49689c012caae379e3f2a368c70494",
+          "commit": {
+            "message": "docs: update API documentation",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-15T13:41:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/62e20d838600b705944cc8f209b6c9791286dfdb"
+        },
+        {
+          "sha": "b31d22ad27e8f6315ec90ac6c645909155d369c1",
+          "commit": {
+            "message": "refactor: clean up authentication middleware",
+            "author": {
+              "name": "Lisa Chen",
+              "email": "lisachen@autonomize.ai",
+              "date": "2026-03-13T07:12:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/264a3de959e7e70f6a345fa86095aff6fc24af5f"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 3,
+      "items": [
+        {
+          "number": 256,
+          "title": "Optimise image loading performance",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/auth-service/pull/528",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/auth-service",
+          "updated_at": "2026-03-11T00:03:48.000+0000",
+          "user": {
+            "login": "lisachen"
+          }
+        },
+        {
+          "number": 237,
+          "title": "Optimise image loading performance",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/analytics-dashboard/pull/826",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/analytics-dashboard",
+          "updated_at": "2026-03-11T20:35:48.000+0000",
+          "user": {
+            "login": "lisachen"
+          }
+        },
+        {
+          "number": 304,
+          "title": "Add pagination to user listing API",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/auth-service/pull/864",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/auth-service",
+          "updated_at": "2026-03-18T16:19:48.000+0000",
+          "user": {
+            "login": "lisachen"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/auth-service",
+      "autonomize-ai/mobile-app",
+      "autonomize-ai/analytics-dashboard",
+      "autonomize-ai/frontend-app"
+    ]
+  },
+  "arjunmehta": {
+    "commits": {
+      "total_count": 9,
+      "items": [
+        {
+          "sha": "c94ded828f2d165df6f4e4df91e519082d2cab00",
+          "commit": {
+            "message": "docs: update API documentation",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-11T09:06:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/8627978f8620874f3b5584d91926dac3927d5264"
+        },
+        {
+          "sha": "dd8bedebd8e8b551136e47fda3720b1edb1e8436",
+          "commit": {
+            "message": "fix: resolve race condition in async handler",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-13T07:53:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/0911a449dc4f750f951c035d6c6e104de34ad070"
+        },
+        {
+          "sha": "b9faca544649a061b889085ea57d5d8e881691fb",
+          "commit": {
+            "message": "feat: add retry logic for failed API calls",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-17T22:14:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/9c02ebd5d27a786865daa6b9f4c4828ffd8cbf50"
+        },
+        {
+          "sha": "bc563765cf3b81db828928c418299a2bd655c622",
+          "commit": {
+            "message": "feat: implement caching for frequent queries",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-18T15:08:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/233d8ac026e60227a21b9d138a77ef992a9db84c"
+        },
+        {
+          "sha": "7251b3a932a0fb02eb60055f56782f98c16f41f7",
+          "commit": {
+            "message": "test: add unit tests for payment module",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-18T19:24:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/8459aed94384a406ff47ede73b2af05673721c48"
+        },
+        {
+          "sha": "f30948d349ead4b6844075a8d003ea902d8d57ef",
+          "commit": {
+            "message": "feat: integrate third party logging service",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-17T02:02:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/data-pipeline",
+            "html_url": "https://github.com/autonomize-ai/data-pipeline"
+          },
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/commit/62c55c2d106bcac0a32bc1fbbc8f6a87b5cb4cfb"
+        },
+        {
+          "sha": "7dff7e825484dd70e8116a6dcb50199915698aff",
+          "commit": {
+            "message": "test: improve test coverage for auth module",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-12T01:50:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/frontend-app",
+            "html_url": "https://github.com/autonomize-ai/frontend-app"
+          },
+          "html_url": "https://github.com/autonomize-ai/frontend-app/commit/9cc8277564c2240f2787262336eff21ecf54aaef"
+        },
+        {
+          "sha": "25f847ec9d46e1ab64a4c752983d8b7e39ce8114",
+          "commit": {
+            "message": "test: improve test coverage for auth module",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-13T13:01:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/data-pipeline",
+            "html_url": "https://github.com/autonomize-ai/data-pipeline"
+          },
+          "html_url": "https://github.com/autonomize-ai/data-pipeline/commit/411a85c2545ce3c1c9995bc5151eceaf502fdfbf"
+        },
+        {
+          "sha": "2539e2ea69d759bb6c8bff5a67a263054248f1ce",
+          "commit": {
+            "message": "feat: integrate third party logging service",
+            "author": {
+              "name": "Arjun Mehta",
+              "email": "arjunmehta@autonomize.ai",
+              "date": "2026-03-16T20:22:48.000+0000"
+            }
+          },
+          "repository": {
+            "full_name": "autonomize-ai/auth-service",
+            "html_url": "https://github.com/autonomize-ai/auth-service"
+          },
+          "html_url": "https://github.com/autonomize-ai/auth-service/commit/ae73b13c3d26845e1422a9f00d2593162f5da2d8"
+        }
+      ]
+    },
+    "pull_requests": {
+      "total_count": 2,
+      "items": [
+        {
+          "number": 469,
+          "title": "Implement new dashboard analytics",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/auth-service/pull/551",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/auth-service",
+          "updated_at": "2026-03-16T17:55:48.000+0000",
+          "user": {
+            "login": "arjunmehta"
+          }
+        },
+        {
+          "number": 247,
+          "title": "Fix authentication token expiry bug",
+          "state": "open",
+          "html_url": "https://github.com/autonomize-ai/auth-service/pull/321",
+          "repository_url": "https://api.github.com/repos/autonomize-ai/auth-service",
+          "updated_at": "2026-03-12T08:20:48.000+0000",
+          "user": {
+            "login": "arjunmehta"
+          }
+        }
+      ]
+    },
+    "repos": [
+      "autonomize-ai/auth-service",
+      "autonomize-ai/data-pipeline",
+      "autonomize-ai/frontend-app"
+    ]
+  }
+}

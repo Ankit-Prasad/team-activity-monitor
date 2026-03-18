@@ -75,9 +75,6 @@ def fetch_all_data(username):
 
 
 def handle_query(query):
-    """
-    Process a single user query end to end.
-    """
     if not is_valid_query(query):
         return (
             "That doesn't look like a TAM query. "
@@ -95,6 +92,17 @@ def handle_query(query):
     print(f"\n[TAM] Fetching activity for '{username}'...")
 
     jira_issues, jira_updates, commits, pull_requests, repos = fetch_all_data(username)
+
+    # check if user was found in either system
+    jira_empty = "error" in jira_issues or not jira_issues.get("issues")
+    github_empty = "error" in commits or not commits.get("commits")
+
+    if jira_empty and github_empty:
+        return (
+            f"I couldn't find any activity for '{username}'. "
+            f"Make sure the name matches a team member. "
+            f"Available members: John, Sarah, Ravi, Priya, Mike, Ananya, Lisa, Arjun."
+        )
 
     print("[TAM] Generating response...\n")
 
