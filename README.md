@@ -143,3 +143,40 @@ Show me recent activity for priya
 1. Go to platform.openai.com
 2. Navigate to API Keys and create a new key
 3. Copy the value into `.env`
+
+## Running Tests
+
+TAM uses `pytest` for unit and integration testing.
+
+### Run all tests
+```bash
+pytest tests/ -v
+```
+
+### Run a specific test file
+```bash
+pytest tests/test_query_parser.py -v
+pytest tests/test_jira_client.py -v
+pytest tests/test_github_client.py -v
+pytest tests/test_response_generator.py -v
+pytest tests/test_app.py -v
+```
+
+### Run a specific test class
+```bash
+pytest tests/test_query_parser.py::TestExtractName -v
+```
+
+### Run a specific test case
+```bash
+pytest tests/test_query_parser.py::TestExtractName::test_extract_english_name_what_is -v
+```
+
+### Test coverage by module
+| Module | Test File | Tests |
+|---|---|---|
+| `src/query_parser.py` | `tests/test_query_parser.py` | Name extraction, query validation |
+| `src/jira_client.py` | `tests/test_jira_client.py` | Mock data fetching, time formatting |
+| `src/github_client.py` | `tests/test_github_client.py` | Commits, PRs, repos fetching |
+| `src/response_generator.py` | `tests/test_response_generator.py` | Response formatting, OpenAI fallback |
+| `app.py` | `tests/test_app.py` | End-to-end query handling, caching |
