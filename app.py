@@ -93,15 +93,35 @@ def handle_query(query):
 
     jira_issues, jira_updates, commits, pull_requests, repos = fetch_all_data(username)
 
-    # check if user was found in either system
-    jira_empty = "error" in jira_issues or not jira_issues.get("issues")
-    github_empty = "error" in commits or not commits.get("commits")
+    # check for user not found vs no activity
+    jira_error = "error" in jira_issues
+    github_error = "error" in commits
 
-    if jira_empty and github_empty:
+    jira_empty = not jira_issues.get("issues")
+    github_empty = not commits.get("commits")
+
+    # user not found
+    if jira_error and github_error:
+        try:
+            import json
+            with open("data/members_config.json") as f:
+                members = json.load(f)
+            names = ", ".join(m["name"].split()[0] for m in members)
+        except FileNotFoundError:
+            names = "unknown — members_config.json not found"
+
         return (
             f"I couldn't find any activity for '{username}'. "
             f"Make sure the name matches a team member. "
-            f"Available members: John, Sarah, Ravi, Priya, Mike, Ananya, Lisa, Arjun."
+            f"Available members: {names}."
+        )
+
+    # user found but no activity in either system
+    if jira_empty and github_empty:
+        return (
+            f"I found '{username}' in the system but couldn't find "
+            f"any recent JIRA issues or GitHub activity. "
+            f"They may not have any active work at the moment."
         )
 
     print("[TAM] Generating response...\n")
