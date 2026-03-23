@@ -24,13 +24,18 @@ STOP_WORDS = {
     "what", "is", "has", "have", "been", "show", "me", "tell",
     "working", "on", "these", "days", "recent", "activity", "for",
     "this", "week", "today", "the", "a", "an", "give", "get",
-    "commits", "pull", "requests", "prs", "issues", "tickets"
+    "commits", "pull", "requests", "prs", "issues", "tickets",
+    "any", "update", "updates", "about", "how", "doing", "status",
+    "contributing", "contributed", "work", "recent", "latest",
+    "weather", "time", "date", "news"
 }
 
 QUERY_KEYWORDS = [
     "what is", "what has", "what was", "show me", "tell me",
     "working on", "activity for", "recent activity", "commits",
-    "pull requests", "prs", "issues", "tickets"
+    "pull requests", "prs", "issues", "tickets", "update on", 
+    "updates on", "how is", "how has", "any updates",
+    "give me", "an update", "doing these"
 ]
 
 
@@ -63,7 +68,11 @@ def _clean_name(name):
     """
     Post-process extracted name — max 2 words, strip known verb words.
     """
-    NON_NAME_WORDS = {"working", "been", "doing", "committed", "worked", "status"}
+    NON_NAME_WORDS = {
+        "working", "been", "doing", "committed", "worked", "status",
+        "update", "updates", "about", "contributing", "contributed",
+        "the", "weather", "activity", "recent", "latest", "work"
+    }
     words = name.split()
     words = [w for w in words if w.lower() not in NON_NAME_WORDS]
     return " ".join(words[:2]) if words else None
