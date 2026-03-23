@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+
+# generated mock data — regenerate using scripts/generate_mock_data.py
+data/jira_issues.json
+data/github_activity.json
+data/members.json
