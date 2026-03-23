@@ -32,6 +32,14 @@ def _load_mock_jira_data():
         return {}
 
 
+def _format_time(seconds):
+    """Convert seconds to human readable time estimate."""
+    if not seconds:
+        return None
+    hours = seconds // 3600
+    return f"{hours}h" if hours else None
+
+
 def _find_jira_username(name):
     """
     Find JIRA username from members.json by matching display name.
@@ -75,7 +83,9 @@ def _mock_get_user_issues(username):
             "summary": fields.get("summary"),
             "status": fields.get("status", {}).get("name"),
             "priority": fields.get("priority", {}).get("name"),
-            "updated": fields.get("updated", "")[:10]
+            "updated": fields.get("updated", "")[:10],
+            "time_estimate": _format_time(fields.get("timeoriginalestimate")),
+            "time_spent": _format_time(fields.get("timespent"))
         })
 
     return {"issues": issues, "total": mock_data.get("total", len(issues))}

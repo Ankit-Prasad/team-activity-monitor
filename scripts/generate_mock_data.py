@@ -192,7 +192,9 @@ def generate_jira_issues():
                             }
                             for _ in range(random.randint(0, 3))
                         ]
-                    }
+                    },
+                    "timeoriginalestimate": random.choice([3600, 7200, 14400, 28800, None]),  # in seconds
+                    "timespent": random.choice([1800, 3600, 7200, None])
                 },
                 "changelog": {
                     "histories": changelog_entries

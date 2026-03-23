@@ -27,10 +27,17 @@ def _format_jira_data(jira_issues, jira_updates):
         else:
             lines.append(f"JIRA Issues ({jira_issues.get('total', 0)} total, showing recent):")
             for issue in issues:
+                time_info = ""
+                if issue.get("time_estimate"):
+                    time_info += f"| Estimate: {issue['time_estimate']} "
+                if issue.get("time_spent"):
+                    time_info += f"| Spent: {issue['time_spent']} "
+
                 lines.append(
                     f"  - [{issue['key']}] {issue['summary']} "
                     f"| Status: {issue['status']} "
                     f"| Priority: {issue['priority']} "
+                    f"{time_info}"
                     f"| Updated: {issue['updated']}"
                 )
 
@@ -163,7 +170,19 @@ def _fallback_response(username, jira_issues, commits, pull_requests):
     if issues:
         lines.append("JIRA Issues:")
         for issue in issues:
-            lines.append(f"  - [{issue['key']}] {issue['summary']} ({issue['status']})")
+            time_info = ""
+            if issue.get("time_estimate"):
+                time_info += f"| Estimate: {issue['time_estimate']} "
+            if issue.get("time_spent"):
+                time_info += f"| Spent: {issue['time_spent']} "
+
+            lines.append(
+                f"  - [{issue['key']}] {issue['summary']} "
+                f"| Status: {issue['status']} "
+                f"| Priority: {issue['priority']} "
+                f"{time_info}"
+                f"| Updated: {issue['updated']}"
+            )
     else:
         lines.append("JIRA: No active issues found.")
 
@@ -172,7 +191,7 @@ def _fallback_response(username, jira_issues, commits, pull_requests):
     if commit_list:
         lines.append("\nRecent Commits:")
         for commit in commit_list:
-            lines.append(f"  - [{commit['repo']}] {commit['message']}")
+            lines.append(f"  - [{commit['repo']}] {commit['message']} on {commit['date']}")
     else:
         lines.append("\nGitHub: No recent commits found.")
 
@@ -181,7 +200,7 @@ def _fallback_response(username, jira_issues, commits, pull_requests):
     if pr_list:
         lines.append("\nOpen Pull Requests:")
         for pr in pr_list:
-            lines.append(f"  - [{pr['repo']}] {pr['title']}")
+            lines.append(f"  - [{pr['repo']}] {pr['title']} | Updated: {pr['updated']}")
     else:
         lines.append("GitHub: No open pull requests found.")
 
